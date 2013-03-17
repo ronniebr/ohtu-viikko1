@@ -99,4 +99,4 @@ public class VarastoTest {
         varasto.otaVarastosta(-5);
         assertEquals(5, varasto.getSaldo(),vertailuTarkkuus);
     }
-}
+}//muutos
