@@ -97,6 +97,6 @@ public class VarastoTest {
     public void otetaanNegatiivistaTavaraa(){
         varasto = new Varasto(10,5);
         varasto.otaVarastosta(-5);
-        assertEquals(5, varasto.getSaldo(),vertailuTarkkuus);
+        assertEquals(10, varasto.getSaldo(),vertailuTarkkuus);
     }
 }
