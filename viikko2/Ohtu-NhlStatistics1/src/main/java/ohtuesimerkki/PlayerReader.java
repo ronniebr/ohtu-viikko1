@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class PlayerReader implements Reader {
+public class PlayerReader {
 
     private Scanner scanner;
 
@@ -32,8 +32,7 @@ public class PlayerReader implements Reader {
         return players;
     }
 
-    
-    public int extractInt(String str) {
+    private int extractInt(String str) {
         return Integer.parseInt(str.trim());
     }
 }
