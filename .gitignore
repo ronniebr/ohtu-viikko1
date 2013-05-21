@@ -1,6 +1,19 @@
+<<<<<<< HEAD
 # OS X
 .DS_Store
 
 target/
 *.*sql
 
+=======
+OhtuVarasto/target/
+*~
+*.logdb/schema.rb
+tmp/*/*
+log/*
+config/database.yaml
+config/environments/production.rb
+db/schema.sql
+*.[oa]
+EOF
+>>>>>>> ce208b07352f476e85869d228b913e734a5803f3
